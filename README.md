@@ -6,3 +6,6 @@ Sentimental analysis is a technique that uses natural language processing and ma
 
 # Negative Output
 <img width="718" alt="image" src="https://github.com/pradyumnagnaik/Sentiment-Analysis/assets/135484402/cc81e5f7-f716-483b-825e-1d719508b9fb">
+
+I have completed the task of sentiment analysis on the tweets from the csv file. I have used different color boxes to indicate the sentiment of each tweet: green for positive, red for negative and yellow for neutral. This way, you can easily see the distribution of sentiments among the tweets and identify any patterns or trends.
+<img width="951" alt="image" src="https://github.com/pradyumnagnaik/Sentiment-Analysis/assets/135484402/327d5645-15d6-4b9a-8cf0-15f03ba2d2b9">

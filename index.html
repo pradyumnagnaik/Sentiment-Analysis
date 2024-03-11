@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis Tool</title>
+</head>
+<body>
+    <h1>Sentiment Analysis</h1>
+    <form action="http://127.0.0.1:5000/" method="post"> 
+        <label for="text">Enter Text:</label><br>
+        <input type="text" id="text" name="text"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    {% if text %}
+        <h2>Input Text:</h2>
+        <p>{{ text }}</p>
+        <h2>Sentiment Analysis Result:</h2>
+        <p>Logistic Regression: {{ sentiment_lr }}</p>
+        <p>Decision Tree: {{ sentiment_dt }}</p>
+    {% endif}
+</body>
+</html>
